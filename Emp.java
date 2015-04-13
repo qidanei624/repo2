@@ -5,4 +5,3 @@ System.out.println("Emp lh111");
 System.out.println("Emp 8000");
 System.out.println("Emp 9000");
 System.out.println("Emp 1");
-System.out.println("Emp 2");
