@@ -1,0 +1,5 @@
+git config进阶
+config 就是配置的意思，git config 字如其意，就是 git 的配置文件，git config 文件有三层。
+第一层config是在系统层etc/gitconfig， 可以通过使用 git config --system来进行配置，此层gitcofnig 配置针对系统所有用户的分支都有效。
+第二层是~/.gitconfig，针对某个用户有效，针对此层设置使用的是git config --global命令。
+第三层是项目文件夹中的配置文件，比如说我有一个 project1的文件夹，project1/.git/config就是在这个 repo 中使用的 gitconfig 配置。直接使用git config 就能进行配置。
